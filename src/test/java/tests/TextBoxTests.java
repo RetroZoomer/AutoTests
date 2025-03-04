@@ -10,7 +10,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class TextBoxTests {
 
-
     @BeforeAll
     static void setup() {
 //        Configuration.timeout = 50000;
