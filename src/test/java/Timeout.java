@@ -16,7 +16,7 @@ public class Timeout {
     void timeout() {
         assertTimeout(Duration.ofSeconds(1), () -> {
             int[] sorted = Arrays.stream(arr).sorted().toArray();
-            Thread.sleep(1000);
+            Thread.sleep(100);
         });
     }
 

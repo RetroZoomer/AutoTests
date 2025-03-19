@@ -1,4 +1,4 @@
-package WSOFT_homework.JUnit;
+package JUnit;
 
 import org.example.Calc;
 import org.junit.jupiter.api.BeforeAll;
